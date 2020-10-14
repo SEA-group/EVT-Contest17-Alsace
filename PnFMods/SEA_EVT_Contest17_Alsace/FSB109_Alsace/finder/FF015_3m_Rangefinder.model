@@ -1,0 +1,9 @@
+<FF015_3m_Rangefinder.model>
+	<castsShadow>	false	</castsShadow>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/finder/lods/FF015_3m_Rangefinder_lod1	</parent>
+	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/finder/FF015_3m_Rangefinder	</nodefullVisual>
+	<extent>	3	</extent>
+	<materialNames />
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</FF015_3m_Rangefinder.model>

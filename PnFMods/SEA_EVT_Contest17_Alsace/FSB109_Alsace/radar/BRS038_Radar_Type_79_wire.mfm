@@ -1,0 +1,13 @@
+<BRS038_Radar_Type_79_wire.mfm>
+	<fx>	shaders/materials/pbs/wire_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS038_Radar_Type_79_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS038_Radar_Type_79_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS038_Radar_Type_79_n.dds	</Texture>
+	</property>
+</BRS038_Radar_Type_79_wire.mfm>

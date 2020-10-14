@@ -1,0 +1,13 @@
+<C001_Net_alpha.mfm>
+	<fx>	shaders/std_effects/grid_alpha.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/C001_Net_alpha_a.dds	</Texture>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	145	</Int>
+	</property>
+</C001_Net_alpha.mfm>

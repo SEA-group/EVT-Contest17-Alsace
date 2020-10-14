@@ -1,0 +1,9 @@
+<FD018_Dir_HA_RF_2m_ACAD_lod2.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/lods/FD018_Dir_HA_RF_2m_ACAD_lod3	</parent>
+	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/lods/FD018_Dir_HA_RF_2m_ACAD_lod2	</nodefullVisual>
+	<extent>	12	</extent>
+	<materialNames />
+	<castsShadow>	false	</castsShadow>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</FD018_Dir_HA_RF_2m_ACAD_lod2.model>

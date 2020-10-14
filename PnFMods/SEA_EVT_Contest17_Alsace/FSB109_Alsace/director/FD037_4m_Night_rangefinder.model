@@ -1,0 +1,9 @@
+<FD037_4m_Night_rangefinder.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/lods/FD037_4m_Night_rangefinder_lod1	</parent>
+	<extent>	5.0000	</extent>
+	<castsShadow>	false	</castsShadow>
+	<materialNames />
+	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD037_4m_Night_rangefinder	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</FD037_4m_Night_rangefinder.model>

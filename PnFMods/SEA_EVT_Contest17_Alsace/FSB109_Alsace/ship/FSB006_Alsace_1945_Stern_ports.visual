@@ -1,0 +1,123 @@
+<FSB006_Alsace_1945_Stern_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Stern_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FC_1	</identifier>
+				<transform>
+					<row0>	0.7071 0.0000 -0.7071 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.7071 0.0000 0.7071 0.0000	</row2>
+					<row3>	0.0000 0.4521 -8.0568 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4098 -6.9350 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTraceBack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -8.6809 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -5.8366 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM002_Propeller4_L	</identifier>
+				<transform>
+					<row0>	0.9865 0.1637 0.0004 0.0000	</row0>
+					<row1>	-0.1635 0.9858 -0.0392 0.0000	</row1>
+					<row2>	-0.0068 0.0386 0.9992 0.0000	</row2>
+					<row3>	-0.3243 -0.4949 -7.3602 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM002_Propeller4_L_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.2508 -0.9680 0.0032 0.0000	</row0>
+					<row1>	0.9663 0.2502 -0.0602 0.0000	</row1>
+					<row2>	0.0575 0.0182 0.9982 0.0000	</row2>
+					<row3>	-0.5958 -0.4970 -6.3864 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM033_Propeller4_R	</identifier>
+				<transform>
+					<row0>	0.9855 -0.1697 0.0066 0.0000	</row0>
+					<row1>	0.1698 0.9847 -0.0386 0.0000	</row1>
+					<row2>	0.0000 0.0391 0.9992 0.0000	</row2>
+					<row3>	0.3243 -0.4946 -7.3603 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM033_Propeller4_R_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9645 -0.2568 0.0621 0.0000	</row0>
+					<row1>	0.2576 0.9662 -0.0060 0.0000	</row1>
+					<row2>	-0.0584 0.0218 0.9981 0.0000	</row2>
+					<row3>	0.5957 -0.4969 -6.3861 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM851_Mastheadlight	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4734 -8.7969 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM950_Anchor_bottom	</identifier>
+				<transform>
+					<row0>	0.6164 0.5218 -0.0623 0.0000	</row0>
+					<row1>	-0.4998 0.6119 0.1786 0.0000	</row1>
+					<row2>	0.1621 -0.0975 0.7876 0.0000	</row2>
+					<row3>	0.0061 0.2991 -8.8225 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM951_Anchor_up	</identifier>
+				<transform>
+					<row0>	0.6164 0.5218 -0.0623 0.0000	</row0>
+					<row1>	-0.3242 0.4532 0.5879 0.0000	</row1>
+					<row2>	0.4135 -0.4224 0.5538 0.0000	</row2>
+					<row3>	0.0061 0.2991 -8.8225 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</FSB006_Alsace_1945_Stern_ports.visual>

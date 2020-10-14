@@ -1,0 +1,19 @@
+<FGA014_20mm_Oerlikon_MK4.mfm>
+	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	1.80000	</Float>
+	</property>	
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/default_ao.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA014_20mm_Oerlikon_MK4_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA014_20mm_Oerlikon_MK4_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA014_20mm_Oerlikon_MK4_n.dds	</Texture>
+	</property>
+</FGA014_20mm_Oerlikon_MK4.mfm>

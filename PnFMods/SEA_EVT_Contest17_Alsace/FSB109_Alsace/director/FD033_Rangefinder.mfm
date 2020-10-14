@@ -1,0 +1,16 @@
+<FD033_Rangefinder.mfm>
+	<fx>	shaders/std_effects/PBS_ship.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/default_ao.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD033_Rangefinder_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD033_Rangefinder_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD033_Rangefinder_n.dds	</Texture>
+	</property>
+</FD033_Rangefinder.mfm>

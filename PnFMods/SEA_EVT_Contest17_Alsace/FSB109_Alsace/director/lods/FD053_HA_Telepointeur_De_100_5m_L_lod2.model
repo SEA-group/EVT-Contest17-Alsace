@@ -1,0 +1,8 @@
+<FD053_HA_Telepointeur_De_100_5m_L_lod2.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/lods/FD053_HA_Telepointeur_De_100_5m_L_lod3	</parent>
+	<extent>	30.0000	</extent>
+	<castsShadow>	false	</castsShadow>
+	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/lods/FD053_HA_Telepointeur_De_100_5m_L_lod2	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</FD053_HA_Telepointeur_De_100_5m_L_lod2.model>

@@ -1,0 +1,114 @@
+<FSB006_Alsace_1945_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 5.0345 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4219 6.2645 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 8.6666 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 5.0345 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM950_Anchor_bottom	</identifier>
+				<transform>
+					<row0>	-0.3143 -0.7660 -0.5607 0.0000	</row0>
+					<row1>	0.1985 0.5246 -0.8279 0.0000	</row1>
+					<row2>	0.9284 -0.3715 -0.0128 0.0000	</row2>
+					<row3>	0.1508 0.4194 8.4223 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM950_Anchor_bottom_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.3143 0.7660 0.5607 0.0000	</row0>
+					<row1>	-0.1985 0.5246 -0.8279 0.0000	</row1>
+					<row2>	-0.9284 -0.3715 -0.0128 0.0000	</row2>
+					<row3>	-0.1508 0.4194 8.4223 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM950_Anchor_bottom_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6047 -0.7965 0.0000	</row1>
+					<row2>	0.0000 0.7965 0.6047 0.0000	</row2>
+					<row3>	0.0000 0.3763 8.7824 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM951_Anchor_up	</identifier>
+				<transform>
+					<row0>	-0.3143 -0.7660 -0.5607 0.0000	</row0>
+					<row1>	-0.3362 0.6422 -0.6889 0.0000	</row1>
+					<row2>	0.8878 -0.0280 -0.4593 0.0000	</row2>
+					<row3>	0.1508 0.4194 8.4223 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM951_Anchor_up_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.3143 0.7660 0.5607 0.0000	</row0>
+					<row1>	0.3362 0.6422 -0.6889 0.0000	</row1>
+					<row2>	-0.8878 -0.0280 -0.4593 0.0000	</row2>
+					<row3>	-0.1508 0.4194 8.4223 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM951_Anchor_up_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6047 -0.7965 0.0000	</row1>
+					<row2>	0.0000 0.7965 0.6047 0.0000	</row2>
+					<row3>	0.0000 0.3763 8.7824 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</FSB006_Alsace_1945_Bow_ports.visual>
