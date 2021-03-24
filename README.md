@@ -14,3 +14,6 @@ Presented by SEA group
 
 ## Credit
 Sofa model extracted from Monster Hunter World
+
+## Preview
+![EVT-Contest17-Alsace](https://raw.githubusercontent.com/SEA-group/EVT-Contest17-Alsace/master/Affiche.png)
