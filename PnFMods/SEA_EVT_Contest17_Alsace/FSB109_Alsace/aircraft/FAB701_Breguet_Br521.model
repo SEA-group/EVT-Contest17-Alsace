@@ -1,0 +1,7 @@
+<FAB701_Breguet_Br521.model>
+	<castsShadow>	true	</castsShadow>
+	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/lods/FAB701_Breguet_Br521_lod1	</parent>
+	<extent>	5.0000	</extent>
+	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAB701_Breguet_Br521	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</FAB701_Breguet_Br521.model>

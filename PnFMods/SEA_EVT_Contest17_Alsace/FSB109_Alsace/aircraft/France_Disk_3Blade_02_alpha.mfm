@@ -1,0 +1,13 @@
+<France_Disk_3Blade_02_alpha.mfm>
+	<fx>	shaders/std_effects/lightonly_alpha_flat.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	content/gameplay/common/textures/France_Disk_3Blade_02_alpha_a.dds	</Texture>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+</France_Disk_3Blade_02_alpha.mfm>
