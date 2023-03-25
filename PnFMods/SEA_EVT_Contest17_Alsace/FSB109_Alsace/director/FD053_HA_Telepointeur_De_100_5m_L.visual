@@ -29,7 +29,7 @@
 			<primitive>	FD043_HA_Telepointeur_De_100_5mShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Director	</identifier>
+					<identifier>	SHIPMATX_PBSX_Director	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD043_HA_Telepointeur_De_100_5m.mfm	</mfm>
 				</material>
 			</primitiveGroup>

@@ -70,7 +70,7 @@
 			<primitive>	Bow_DeckHouse_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -84,7 +84,7 @@
 			<primitive>	Bow_crack_MidFront_in_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
+					<identifier>	SHIPMATX_PBSX_Crack	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -98,7 +98,7 @@
 			<primitive>	Bow_crack_MidFront_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -112,7 +112,7 @@
 			<primitive>	Bow_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -126,7 +126,7 @@
 			<primitive>	Bow_patch_MidFront_DeckHouse_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -140,7 +140,7 @@
 			<primitive>	Bow_patch_MidFront_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>

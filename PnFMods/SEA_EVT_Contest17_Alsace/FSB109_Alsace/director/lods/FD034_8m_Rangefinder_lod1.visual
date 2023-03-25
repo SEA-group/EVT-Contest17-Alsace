@@ -61,7 +61,7 @@
 			<primitive>	FD034_Rangefinder_8m_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Director	</identifier>
+					<identifier>	SHIPMATX_PBSX_Director	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD034_8m_Rangefinder.mfm	</mfm>
 				</material>
 			</primitiveGroup>

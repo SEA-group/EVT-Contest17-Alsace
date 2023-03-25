@@ -1096,7 +1096,7 @@
 			<primitive>	Hull_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull_skinned	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull_skinned	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAB701_Breguet_Br521_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -1138,7 +1138,7 @@
 			<primitive>	disc_cap_1_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAB701_Breguet_Br521.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -1152,7 +1152,7 @@
 			<primitive>	disc_cap_2_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAB701_Breguet_Br521.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -1166,7 +1166,7 @@
 			<primitive>	disc_cap_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAB701_Breguet_Br521.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -1194,7 +1194,7 @@
 			<primitive>	mod_1_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAB701_Breguet_Br521.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -1208,7 +1208,7 @@
 			<primitive>	mod_2_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAB701_Breguet_Br521.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -1222,7 +1222,7 @@
 			<primitive>	mod_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAB701_Breguet_Br521.mfm	</mfm>
 				</material>
 			</primitiveGroup>

@@ -152,7 +152,7 @@
 			<primitive>	Catapult_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Catapult_skinned	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Catapult_skinned	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/catapult/FC001_Catapult_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -166,7 +166,7 @@
 			<primitive>	Cradle_1_lodShape1.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Catapult_skinned	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Catapult_skinned	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/catapult/FC001_Catapult_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -180,7 +180,7 @@
 			<primitive>	Cradle_2_lodShape1.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Catapult_skinned	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Catapult_skinned	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/catapult/FC001_Catapult_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>

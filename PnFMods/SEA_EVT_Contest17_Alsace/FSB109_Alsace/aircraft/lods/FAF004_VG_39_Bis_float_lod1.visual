@@ -79,7 +79,7 @@
 			<primitive>	disc_cap_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAF004_VG_39_Bis_float.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -107,7 +107,7 @@
 			<primitive>	hull_lodShape1.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAF004_VG_39_Bis_float.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -121,7 +121,7 @@
 			<primitive>	mod_lodShape1.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/aircraft/FAF004_VG_39_Bis_float.mfm	</mfm>
 				</material>
 			</primitiveGroup>

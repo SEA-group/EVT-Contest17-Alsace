@@ -180,7 +180,7 @@
 			<primitive>	Turret_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Gun_skinned	</identifier>
+					<identifier>	SHIPMATX_PBSX_Gun_skinned	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGS013_2_100_55_Mle_1945_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>

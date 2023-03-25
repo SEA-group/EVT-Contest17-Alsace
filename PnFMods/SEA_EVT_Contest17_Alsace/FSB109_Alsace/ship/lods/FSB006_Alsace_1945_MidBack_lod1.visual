@@ -151,7 +151,7 @@
 			<primitive>	MidBack_DeckHouse_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -179,7 +179,7 @@
 			<primitive>	MidBack_crack_MidFront_DeckHouse_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -193,7 +193,7 @@
 			<primitive>	MidBack_crack_MidFront_in_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
+					<identifier>	SHIPMATX_PBSX_Crack	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -207,7 +207,7 @@
 			<primitive>	MidBack_crack_MidFront_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -221,7 +221,7 @@
 			<primitive>	MidBack_crack_Stern_DeckHouse_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -235,7 +235,7 @@
 			<primitive>	MidBack_crack_Stern_in_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
+					<identifier>	SHIPMATX_PBSX_Crack	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -249,7 +249,7 @@
 			<primitive>	MidBack_crack_Stern_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -263,7 +263,7 @@
 			<primitive>	MidBack_hide_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -277,7 +277,7 @@
 			<primitive>	MidBack_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -291,7 +291,7 @@
 			<primitive>	MidBack_patch_Stern_deckHouse_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -305,7 +305,7 @@
 			<primitive>	MidBack_patch_Stern_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -319,7 +319,7 @@
 			<primitive>	MidBack_patch_Stern_wire_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -333,7 +333,7 @@
 			<primitive>	MidBack_wire_flagfal_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -347,7 +347,7 @@
 			<primitive>	MidBack_wire_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>

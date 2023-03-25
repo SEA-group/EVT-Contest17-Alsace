@@ -25,7 +25,7 @@
 			<primitive>	Turret_dead_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_GunDead	</identifier>
+					<identifier>	SHIPMATX_PBSX_GunDead	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGM049_380mm_45_Mle_1935_dead.mfm	</mfm>
 				</material>
 			</primitiveGroup>

@@ -128,7 +128,7 @@
 			<primitive>	BRS020_lodShape1.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Director_skinned	</identifier>
+					<identifier>	SHIPMATX_PBSX_Director_skinned	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS020_RDF_Type_281_bow_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>

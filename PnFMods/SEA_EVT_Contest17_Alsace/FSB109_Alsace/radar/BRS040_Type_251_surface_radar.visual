@@ -43,7 +43,7 @@
 			<primitive>	meshShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Director	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS038_Radar_Type_79.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -57,7 +57,7 @@
 			<primitive>	mesh_wireShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPWIRE_PBS_Director	</identifier>
+					<identifier>	TL2_SHIPWIREX_PBSX_Director	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS038_Radar_Type_79_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>

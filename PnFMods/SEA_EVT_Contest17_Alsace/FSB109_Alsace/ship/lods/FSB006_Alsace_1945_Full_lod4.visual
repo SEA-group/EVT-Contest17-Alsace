@@ -25,7 +25,7 @@
 			<primitive>	Full_lod4Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>

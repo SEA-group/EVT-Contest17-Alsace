@@ -34,7 +34,7 @@
 			<primitive>	FD018_Dir_HA_RF_2m_ACAD_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Director	</identifier>
+					<identifier>	SHIPMATX_PBSX_Director	</identifier>
 					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD018_Dir_HA_RF_2m_ACAD.mfm	</mfm>
 				</material>
 			</primitiveGroup>
