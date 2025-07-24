@@ -1,14 +1,7 @@
 <FD034_8m_Rangefinder.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	FD034_Rangefinder_8m	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,59 +9,134 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	MP_FM432_Radar_type_285	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.2205 0.1194 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_FM433_Railing	</identifier>
+				<identifier>	FD034_Rangefinder_8m	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	MP_FM435_Radar_ACAE	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0574 0.1483 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_FM850_120cm_Searchlight	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.2127 0.0000 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	MP_FM432_Radar_type_285	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.2205 0.1194 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM433_Railing	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM435_Radar_ACAE	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0574 0.1483 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM850_120cm_Searchlight	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.2127 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	FD034_Rangefinder_8m	</node>
-		<geometry>
-			<vertices>	FD034_Rangefinder_8mShape.vertices	</vertices>
-			<primitive>	FD034_Rangefinder_8mShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Director	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD034_8m_Rangefinder.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.2768 -0.0009 -0.2024	</min>
 		<max>	0.2768 0.2531 0.1713	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	FD034_Rangefinder_8mShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	FD034_Rangefinder_8m	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD034_8m_Rangefinder.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FD034_Rangefinder_8m_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	FD034_Rangefinder_8m	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD034_8m_Rangefinder.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FD034_Rangefinder_8m_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	FD034_Rangefinder_8m	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD034_8m_Rangefinder.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FD034_Rangefinder_8m_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	FD034_Rangefinder_8m	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD034_8m_Rangefinder.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	FD034_Rangefinder_8mShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	10.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	FD034_Rangefinder_8m_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	35.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	FD034_Rangefinder_8m_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	200.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FD034_Rangefinder_8m_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FD034_8m_Rangefinder.visual>

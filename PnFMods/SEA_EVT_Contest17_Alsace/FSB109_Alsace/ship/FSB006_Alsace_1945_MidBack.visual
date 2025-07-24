@@ -1,14 +1,7 @@
 <FSB006_Alsace_1945_MidBack.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	MidBack	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,25 +9,7 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	MidBack_DeckHouse	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MidBack_Net	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MidBack_crack_MidFront	</identifier>
+				<identifier>	MidBack	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -42,7 +17,7 @@
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	MidBack_crack_MidFront_DeckHouse	</identifier>
+					<identifier>	MidBack_DeckHouse	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -51,25 +26,7 @@
 					</transform>
 				</node>
 				<node>
-					<identifier>	MidBack_crack_MidFront_in	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-					</transform>
-				</node>
-			</node>
-			<node>
-				<identifier>	MidBack_crack_Stern	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-				<node>
-					<identifier>	MidBack_crack_Stern_DeckHouse	</identifier>
+					<identifier>	MidBack_Net	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -78,34 +35,61 @@
 					</transform>
 				</node>
 				<node>
-					<identifier>	MidBack_crack_Stern_in	</identifier>
+					<identifier>	MidBack_crack_MidFront	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
+					<node>
+						<identifier>	MidBack_crack_MidFront_DeckHouse	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	MidBack_crack_MidFront_in	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
 				</node>
-			</node>
-			<node>
-				<identifier>	MidBack_hide	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MidBack_patch_Stern	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
 				<node>
-					<identifier>	MidBack_patch_Stern_deckHouse	</identifier>
+					<identifier>	MidBack_crack_Stern	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	MidBack_crack_Stern_DeckHouse	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	MidBack_crack_Stern_in	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	MidBack_hide	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -113,248 +97,724 @@
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
 				</node>
-			</node>
-			<node>
-				<identifier>	MidBack_patch_Stern_wire	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MidBack_wire	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MidBack_wire_flagfal	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	MidBack_patch_Stern	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	MidBack_patch_Stern_deckHouse	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	MidBack_patch_Stern_wire	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MidBack_wire	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MidBack_wire_flagfal	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack	</node>
-		<geometry>
-			<vertices>	MidBackShape.vertices	</vertices>
-			<primitive>	MidBackShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_DeckHouse	</node>
-		<geometry>
-			<vertices>	MidBack_DeckHouseShape.vertices	</vertices>
-			<primitive>	MidBack_DeckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_Net	</node>
-		<geometry>
-			<vertices>	MidBack_NetShape.vertices	</vertices>
-			<primitive>	MidBack_NetShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	GRID_Misc1	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C004_Grid_1_alpha.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_crack_MidFront	</node>
-		<geometry>
-			<vertices>	MidBack_crack_MidFrontShape.vertices	</vertices>
-			<primitive>	MidBack_crack_MidFrontShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_crack_MidFront_DeckHouse	</node>
-		<geometry>
-			<vertices>	MidBack_crack_MidFront_DeckHouseShape.vertices	</vertices>
-			<primitive>	MidBack_crack_MidFront_DeckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_crack_MidFront_in	</node>
-		<geometry>
-			<vertices>	MidBack_crack_MidFront_inShape.vertices	</vertices>
-			<primitive>	MidBack_crack_MidFront_inShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Crack	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_crack_Stern	</node>
-		<geometry>
-			<vertices>	MidBack_crack_SternShape.vertices	</vertices>
-			<primitive>	MidBack_crack_SternShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_crack_Stern_DeckHouse	</node>
-		<geometry>
-			<vertices>	MidBack_crack_Stern_DeckHouseShape.vertices	</vertices>
-			<primitive>	MidBack_crack_Stern_DeckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_crack_Stern_in	</node>
-		<geometry>
-			<vertices>	MidBack_crack_Stern_inShape.vertices	</vertices>
-			<primitive>	MidBack_crack_Stern_inShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Crack	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_hide	</node>
-		<geometry>
-			<vertices>	MidBack_hideShape.vertices	</vertices>
-			<primitive>	MidBack_hideShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_patch_Stern	</node>
-		<geometry>
-			<vertices>	MidBack_patch_SternShape.vertices	</vertices>
-			<primitive>	MidBack_patch_SternShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_patch_Stern_deckHouse	</node>
-		<geometry>
-			<vertices>	MidBack_patch_Stern_deckHouseShape.vertices	</vertices>
-			<primitive>	MidBack_patch_Stern_deckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_patch_Stern_wire	</node>
-		<geometry>
-			<vertices>	MidBack_patch_Stern_wireShape.vertices	</vertices>
-			<primitive>	MidBack_patch_Stern_wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_wire	</node>
-		<geometry>
-			<vertices>	MidBack_wireShape.vertices	</vertices>
-			<primitive>	MidBack_wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	MidBack_wire_flagfal	</node>
-		<geometry>
-			<vertices>	MidBack_wire_flagfalShape.vertices	</vertices>
-			<primitive>	MidBack_wire_flagfalShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-1.2347 -0.6769 -6.7180	</min>
 		<max>	1.2329 2.9239 -0.1961	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	MidBackShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_DeckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_NetShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_Net	</node>
+			</nodes>
+			<material>
+				<identifier>	GRID_Misc1	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C004_Grid_1_alpha.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFrontShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_DeckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_inShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Crack	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_SternShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_DeckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_inShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Crack	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_hideShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_hide	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_SternShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_deckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern_deckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_wire_flagfalShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_wire_flagfal	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_DeckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_Net_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_Net	</node>
+			</nodes>
+			<material>
+				<identifier>	GRID_Misc1	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C004_Grid_1_alpha.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_DeckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_in_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Crack	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_DeckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_in_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Crack	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_hide_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_hide	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_deckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern_deckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_wire_flagfal_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_wire_flagfal	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_DeckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_DeckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_in_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Crack	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_DeckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_in_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Crack	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_hide_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_hide	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_deckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern_deckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_wire_flagfal_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_wire_flagfal	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_wire_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_DeckHouse_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_DeckHouse_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_in_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Crack	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_MidFront_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_in_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Crack	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_crack_Stern_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_crack_Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_deckHouse_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern_deckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_deckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_patch_Stern_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_patch_Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	MidBack_wire_flagfal_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	MidBack_wire_flagfal	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/ship/FSB006_Alsace_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	12.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	MidBackShape	</renderSet>
+				<renderSet>	MidBack_DeckHouseShape	</renderSet>
+				<renderSet>	MidBack_NetShape	</renderSet>
+				<renderSet>	MidBack_crack_MidFrontShape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_DeckHouseShape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_inShape	</renderSet>
+				<renderSet>	MidBack_crack_SternShape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_DeckHouseShape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_inShape	</renderSet>
+				<renderSet>	MidBack_hideShape	</renderSet>
+				<renderSet>	MidBack_patch_SternShape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_deckHouseShape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_wireShape	</renderSet>
+				<renderSet>	MidBack_wireShape	</renderSet>
+				<renderSet>	MidBack_wire_flagfalShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	MidBack_DeckHouse_lod1Shape	</renderSet>
+				<renderSet>	MidBack_Net_lod1Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_DeckHouse_lod1Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_in_lod1Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_lod1Shape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_DeckHouse_lod1Shape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_in_lod1Shape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_lod1Shape	</renderSet>
+				<renderSet>	MidBack_hide_lod1Shape	</renderSet>
+				<renderSet>	MidBack_lod1Shape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_deckHouse_lod1Shape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_lod1Shape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_wire_lod1Shape	</renderSet>
+				<renderSet>	MidBack_wire_flagfal_lod1Shape	</renderSet>
+				<renderSet>	MidBack_wire_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	44.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	MidBack_DeckHouse_lod2Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_DeckHouse_lod2Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_in_lod2Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_lod2Shape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_DeckHouse_lod2Shape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_in_lod2Shape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_lod2Shape	</renderSet>
+				<renderSet>	MidBack_hide_lod2Shape	</renderSet>
+				<renderSet>	MidBack_lod2Shape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_deckHouse_lod2Shape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_lod2Shape	</renderSet>
+				<renderSet>	MidBack_wire_flagfal_lod2Shape	</renderSet>
+				<renderSet>	MidBack_wire_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	400.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	MidBack_DeckHouse_lod3Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_DeckHouse_lod3Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_in_lod3Shape	</renderSet>
+				<renderSet>	MidBack_crack_MidFront_lod3Shape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_in_lod3Shape	</renderSet>
+				<renderSet>	MidBack_crack_Stern_lod3Shape	</renderSet>
+				<renderSet>	MidBack_lod3Shape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_deckHouse_lod3Shape	</renderSet>
+				<renderSet>	MidBack_patch_Stern_lod3Shape	</renderSet>
+				<renderSet>	MidBack_wire_flagfal_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FSB006_Alsace_1945_MidBack.visual>

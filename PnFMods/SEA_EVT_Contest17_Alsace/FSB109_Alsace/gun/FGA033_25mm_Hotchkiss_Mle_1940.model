@@ -1,7 +1,6 @@
 <FGA033_25mm_Hotchkiss_Mle_1940.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/lods/FGA033_25mm_Hotchkiss_Mle_1940_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA033_25mm_Hotchkiss_Mle_1940	</nodefullVisual>
+	<visual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA033_25mm_Hotchkiss_Mle_1940.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </FGA033_25mm_Hotchkiss_Mle_1940.model>

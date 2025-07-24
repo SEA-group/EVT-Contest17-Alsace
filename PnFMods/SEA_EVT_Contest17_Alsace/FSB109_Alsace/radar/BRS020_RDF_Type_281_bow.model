@@ -1,17 +1,8 @@
 <BRS020_RDF_Type_281_bow.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/lods/BRS020_RDF_Type_281_bow_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS020_RDF_Type_281_bow	</nodefullVisual>
-	<animation>
-		<name>	NC_BRS020_RDF_Type_281_bow	</name>
-		<frameRate>	30.0000	</frameRate>
-		<nodes>	content/animation/common/NC_BRS020_RDF_Type_281_bow	</nodes>
-	</animation>
-	<action>
-		<name>	idle	</name>
-		<animation>	NC_BRS020_RDF_Type_281_bow	</animation>
-		<filler>	true	</filler>
-	</action>
+	<visual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS020_RDF_Type_281_bow.visual	</visual>
+	<animations>
+		<animation>	content/animation_state_machines/legacy/gameplay/BRS020_RDF_Type_281_bow/BRS020_RDF_Type_281_bow.ssm	</animation>
+	</animations>
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </BRS020_RDF_Type_281_bow.model>

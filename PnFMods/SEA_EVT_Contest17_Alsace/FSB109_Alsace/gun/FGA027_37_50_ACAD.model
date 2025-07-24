@@ -1,7 +1,6 @@
 <FGA027_37_50_ACAD.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/lods/FGA027_37_50_ACAD_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA027_37_50_ACAD	</nodefullVisual>
+	<visual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA027_37_50_ACAD.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </FGA027_37_50_ACAD.model>

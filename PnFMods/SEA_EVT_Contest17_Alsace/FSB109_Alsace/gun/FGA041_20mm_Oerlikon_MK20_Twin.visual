@@ -1,14 +1,7 @@
 <FGA041_20mm_Oerlikon_MK20_Twin.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	OerlikonTwin	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,41 +9,116 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	HP_gunFire1	</identifier>
+				<identifier>	OerlikonTwin	</identifier>
 				<transform>
-					<row0>	1.0000 -0.0030 0.0013 0.0000	</row0>
-					<row1>	0.0033 0.8735 -0.4868 0.0000	</row1>
-					<row2>	0.0003 0.4868 0.8735 0.0000	</row2>
-					<row3>	0.0064 0.1333 0.0777 1.0000	</row3>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire2	</identifier>
-				<transform>
-					<row0>	1.0000 -0.0030 0.0013 0.0000	</row0>
-					<row1>	0.0033 0.8735 -0.4868 0.0000	</row1>
-					<row2>	0.0003 0.4868 0.8735 0.0000	</row2>
-					<row3>	-0.0063 0.1334 0.0777 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 -0.0030 0.0013 0.0000	</row0>
+						<row1>	0.0033 0.8735 -0.4868 0.0000	</row1>
+						<row2>	0.0003 0.4868 0.8735 0.0000	</row2>
+						<row3>	0.0064 0.1333 0.0777 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire2	</identifier>
+					<transform>
+						<row0>	1.0000 -0.0030 0.0013 0.0000	</row0>
+						<row1>	0.0033 0.8735 -0.4868 0.0000	</row1>
+						<row2>	0.0003 0.4868 0.8735 0.0000	</row2>
+						<row3>	-0.0063 0.1334 0.0777 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	OerlikonTwin	</node>
-		<geometry>
-			<vertices>	OerlikonTwinShape.vertices	</vertices>
-			<primitive>	OerlikonTwinShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMATX_PBSX_Gun	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA014_20mm_Oerlikon_MK4.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.0732 0.0000 -0.0716	</min>
 		<max>	0.0733 0.2243 0.1686	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	OerlikonTwinShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	OerlikonTwin	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Gun	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA014_20mm_Oerlikon_MK4.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	OerlikonTwin_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	OerlikonTwin	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Gun	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA014_20mm_Oerlikon_MK4.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	OerlikonTwin_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	OerlikonTwin	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Gun	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA014_20mm_Oerlikon_MK4.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	OerlikonTwin_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	OerlikonTwin	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Gun	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/gun/FGA014_20mm_Oerlikon_MK4.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	OerlikonTwinShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	OerlikonTwin_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	10.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	OerlikonTwin_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	50.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	OerlikonTwin_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FGA041_20mm_Oerlikon_MK20_Twin.visual>

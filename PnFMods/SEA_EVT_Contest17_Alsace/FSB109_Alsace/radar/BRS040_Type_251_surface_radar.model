@@ -1,7 +1,6 @@
 <BRS040_Type_251_surface_radar.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/lods/BRS040_Type_251_surface_radar_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS040_Type_251_surface_radar	</nodefullVisual>
+	<visual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/radar/BRS040_Type_251_surface_radar.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </BRS040_Type_251_surface_radar.model>

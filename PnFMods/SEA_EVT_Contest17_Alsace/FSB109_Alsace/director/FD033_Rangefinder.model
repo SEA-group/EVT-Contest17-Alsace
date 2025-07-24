@@ -1,9 +1,6 @@
 <FD033_Rangefinder.model>
-	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/lods/FD033_Rangefinder_lod1	</parent>
-	<extent>	4.0000	</extent>
-	<castsShadow>	true	</castsShadow>
-	<materialNames />
-	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD033_Rangefinder	</nodefullVisual>
+	<visual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD033_Rangefinder.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </FD033_Rangefinder.model>

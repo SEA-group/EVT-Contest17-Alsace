@@ -1,47 +1,115 @@
 <FD018_Dir_HA_RF_2m_ACAD.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	FD018_Dir_HA_RF_2m_ACAD	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
 			</transform>
 			<node>
-				<identifier>	MP_FM415_Radar_type_285	</identifier>
+				<identifier>	FD018_Dir_HA_RF_2m_ACAD	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.151285 -0.053880 1.000000	</row3>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 				</transform>
+				<node>
+					<identifier>	MP_FM415_Radar_type_285	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.151285 -0.053880 1.000000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	FD018_Dir_HA_RF_2m_ACAD	</node>
-		<geometry>
-			<vertices>	FD018_Dir_HA_RF_2m_ACADShape.vertices	</vertices>
-			<primitive>	FD018_Dir_HA_RF_2m_ACADShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Director	</identifier>
-					<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD018_Dir_HA_RF_2m_ACAD.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.085849 0.000000 -0.071194	</min>
 		<max>	0.085849 0.136694 0.071194	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	FD018_Dir_HA_RF_2m_ACADShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	FD018_Dir_HA_RF_2m_ACAD	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD018_Dir_HA_RF_2m_ACAD.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FD018_Dir_HA_RF_2m_ACAD_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	FD018_Dir_HA_RF_2m_ACAD	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD018_Dir_HA_RF_2m_ACAD.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FD018_Dir_HA_RF_2m_ACAD_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	FD018_Dir_HA_RF_2m_ACAD	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD018_Dir_HA_RF_2m_ACAD.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FD018_Dir_HA_RF_2m_ACAD_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	FD018_Dir_HA_RF_2m_ACAD	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/director/FD018_Dir_HA_RF_2m_ACAD.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FD018_Dir_HA_RF_2m_ACADShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FD018_Dir_HA_RF_2m_ACAD_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	12	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FD018_Dir_HA_RF_2m_ACAD_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	75	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FD018_Dir_HA_RF_2m_ACAD_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FD018_Dir_HA_RF_2m_ACAD.visual>

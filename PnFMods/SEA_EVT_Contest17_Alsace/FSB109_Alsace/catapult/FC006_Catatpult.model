@@ -1,7 +1,6 @@
 <FC006_Catatpult.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/catapult/lods/FC006_Catatpult_lod1	</parent>
-	<extent>	3.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/catapult/FC006_Catatpult	</nodefullVisual>
+	<visual>	PnFMods/SEA_EVT_Contest17_Alsace/FSB109_Alsace/catapult/FC006_Catatpult.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </FC006_Catatpult.model>
